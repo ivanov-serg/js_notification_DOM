@@ -6,7 +6,6 @@ const pushNotification = (posTop, posRight, title, description, type) => {
   notification.classList.add('notification', type);
 
   // позиція
-  notification.style.position = 'fixed';
   notification.style.top = `${posTop}px`;
   notification.style.right = `${posRight}px`;
 
